@@ -1,0 +1,23 @@
+.page {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  /* flex: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    min-width: 320px;
+  }
+}

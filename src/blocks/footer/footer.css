@@ -1,0 +1,18 @@
+.footer {
+  margin: 0 auto;
+  padding: 150px 0 50px;
+  max-width: 1140px;
+  width: 89%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 40px;
+  height: 40px;
+}
+
+.footer__link {
+  color: #ffffff;
+}

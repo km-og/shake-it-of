@@ -1,0 +1,60 @@
+.greeting {
+  max-width: 1140px;
+  width: 89%;
+  margin: 0 auto;
+  padding: 456px 0 0;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 30px;
+}
+
+.greeting__title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.greeting__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 15px auto 0;
+}
+
+.greeting__box {
+}
+
+.greeting__btn {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  padding: 20px;
+  color: #ffffff;
+}
+
+/* .greeting__btn::before {
+  background-size: 100% auto;
+  background: url("../../images/greeting__show-btn.png") no-repeat center;
+  width: 200px;
+  height: 50px;
+} */
+
+.greeting__text_type_hidden {
+  display: none;
+}
+
+.greeting__text_type_visible {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .greeting {
+    width: 92.18%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .greeting {
+    width: 91.11%;
+  }
+}
