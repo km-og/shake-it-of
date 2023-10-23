@@ -7,12 +7,18 @@
 @import url(./blocks/greeting/greeting.css);
 @import url(./blocks/about/about.css);
 @import url(./blocks/event/event.css);
+@import url(./blocks/composition/composition.css);
+@import url(./blocks/slider/slider.css);
 @import url(./blocks/footer/footer.css);
+@import url(./blocks/past-events/past-events.css);
+@import url(./blocks/past-event/past-event.css);
 
 @import url(./blocks/navigation/navigation.css);
 @import url(./blocks/navigation/__btn/navigation__btn.css);
 @import url(./blocks/navigation/__list/navigation__list.css);
+@import url(./blocks/navigation/__item/navigation__item.css);
 @import url(./blocks/navigation/__link/navigation__link.css);
+@import url(./blocks/not-found/not-found.css);
 
 @import url(./blocks/link/link.css);
 @import url(./blocks/cursor/cursor.css);

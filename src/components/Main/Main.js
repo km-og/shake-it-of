@@ -5,12 +5,10 @@ import Event from "../Event/Event";
 
 function Main() {
   return (
-    <main className="content">
+    <>
       <Promo />
-      <Greeting />
-      <AboutUs />
       <Event />
-    </main>
+    </>
   );
 }
 

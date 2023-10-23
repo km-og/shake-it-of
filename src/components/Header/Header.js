@@ -1,4 +1,4 @@
-import logo from "../../images/logo-without-back.png";
+import logo from "../../images/logo.svg";
 import { useState } from "react";
 import Navigation from "../Navigation/Navigation";
 
@@ -20,13 +20,13 @@ function Header() {
       <nav className="header__nav">
         <ul className="header__list">
           <li className="header__item">
-            <a href="#aboutUs" className="header__link link">
-              О нас
+            <a href="/past-events" className="header__link link">
+              Предыдущие мероприятия
             </a>
           </li>
           <li className="header__item">
-            <a href="#event" className="header__link link">
-              О мероприятии
+            <a href="/aboutUs" className="header__link link">
+              О нас
             </a>
           </li>
           <li className="header__item">

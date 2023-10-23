@@ -1,5 +1,5 @@
 .page {
-  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   width: 100%;
@@ -11,9 +11,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000000;
+  background-color: #000308;
   color: #ffffff;
-  position: relative;
+  overflow: hidden;
+  /* position: relative; */
 }
 
 @media screen and (max-width: 767px) {
